@@ -1,1 +1,1 @@
-# carouser-video
+# carousel-video
