@@ -2,21 +2,21 @@
 <html lang="en">
 <head>
     <meta charset="UTF-8">
-    <link rel="stylesheet" href="styles/login.scss">
+    <link rel="stylesheet" href="./public/styles/login.css">
     <link href="https://fonts.googleapis.com/css?family=Muli&display=swap" rel="stylesheet">
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <title>Login</title>
 </head>
 <body>
     <header class="header">
-        <img class="header__img" src="/home/abdiel7ortega/Descargas/logo-platzi-video-BW2.png" alt="">
+        <img tabindex="0" class="header__img" src="./icons/logo-platzi-video-BW2.png" alt="Platzi video logo">
     </header>
     <section class="login">
         <section class="login__container">
-            <h2>Inicia sesión</h2>
+            <h2 tabindex="0">Inicia sesión</h2>
             <form class="login__container--form" action="">
-                <input class="input" type="text" placeholder="Correo">
-                <input class="input" type="password" placeholder="Contraseña">
+                <input aria-label="Correo" class="input" type="text" placeholder="Correo">
+                <input aria-label="Contraseña" class="input" type="password" placeholder="Contraseña">
                 <button class="button">Iniciar sesión</button>
                 <div class="login__container--remember-me">
                     <label>
